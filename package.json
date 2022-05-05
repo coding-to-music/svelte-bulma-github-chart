@@ -1,7 +1,14 @@
 {
-  "name": "coderstats",
+  "name": "svelte-bulma-github-chart",
   "description": "Data visualizations of your top languages, starred repositories and top repos.",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    ".next/cache"
+  ],
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
